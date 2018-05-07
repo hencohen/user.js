@@ -1,3 +1,4 @@
+//
 /******************************************************************************
  * user.js                                                                    *
  * https://github.com/pyllyukko/user.js                                       *
@@ -218,7 +219,7 @@ user_pref("browser.search.geoip.url",				"");
 
 // PREF: Set Accept-Language HTTP header to en-US regardless of Firefox localization
 // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language
-user_pref("intl.accept_languages",				"en-us, en");
+user_pref("intl.accept_languages",				"en-US, en");
 
 // PREF: Don't use OS values to determine locale, force using Firefox locale setting
 // http://kb.mozillazine.org/Intl.locale.matchOS
@@ -702,7 +703,6 @@ user_pref("network.cookie.cookieBehavior",			1);
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1299996
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1260931
 // https://wiki.mozilla.org/Security/FirstPartyIsolation
-// NOTICE: Breaks Firefox addon "Cookie AutoDelete" as of February 2018
 user_pref("privacy.firstparty.isolate",				true);
 
 // PREF: Make sure that third-party cookies (if enabled) never persist beyond the session.
