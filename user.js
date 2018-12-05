@@ -21,7 +21,7 @@ user_pref("dom.serviceWorkers.enabled",				true);
 // https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 // https://www.w3schools.com/html/html5_webworkers.asp
 // NOTICE: Disabling Web Workers breaks "Download as ZIP" functionality on https://mega.nz/, WhatsApp Web and probably others
-user_pref("dom.workers.enabled",					false);
+user_pref("dom.workers.enabled",					true);
 
 // PREF: Disable web notifications
 // https://support.mozilla.org/t5/Firefox/I-can-t-find-Firefox-menu-I-m-trying-to-opt-out-of-Web-Push-and/m-p/1317495#M1006501
@@ -810,7 +810,7 @@ user_pref("browser.formfill.enable",				false);
 
 // PREF: Cookies expires at the end of the session (when the browser closes)
 // http://kb.mozillazine.org/Network.cookie.lifetimePolicy#2
-user_pref("network.cookie.lifetimePolicy",			2);
+user_pref("network.cookie.lifetimePolicy",			1);
 
 // PREF: Require manual intervention to autofill known username/passwords sign-in forms
 // http://kb.mozillazine.org/Signon.autofillForms
